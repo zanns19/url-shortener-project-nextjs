@@ -10,9 +10,9 @@ const Navbar = () => {
             <ul className='flex items-center gap-4'>
                 <Link href="/"><li>Home</li></Link>
                 <Link href="/about"><li>About</li></Link>
-                <Link href="/shortener"><li></li>Shortener</Link>
+                <Link href="/shorten"><li></li>Shortener</Link>
                 <Link href="/contact"><li></li>Contact</Link>
-                <Link href='/shortener'><button  className='p-3 cursor-pointer rounded-xl bg-purple-300' >Try Now</button></Link>
+                <Link href='/shorten'><button  className='p-3 cursor-pointer rounded-xl bg-purple-300' >Try Now</button></Link>
                 <Link href='/github'><button  className='p-3 cursor-pointer rounded-xl bg-purple-300' >Github</button></Link>
             </ul>
         </div>
